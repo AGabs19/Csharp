@@ -1,0 +1,9 @@
+Arquitetura do sistema de Xadrez:
+Camada de Aplicação:
+Aplicativo no modo console onde interage com o usuario!
+
+Camada de Jogo de Xadrez:
+Camada onde o jogo recebe inteligencia
+
+Camada Tabuleiro:
+Camada mais basica e a PRIMEIRA a ser feita, o tabuleiro em si, as peças e suas cores.
