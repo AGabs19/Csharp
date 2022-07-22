@@ -1,4 +1,4 @@
-﻿using Tabuleiro;
+﻿using TabuleiroXadrez;
 using System;
 
 namespace XadrezConsole
@@ -7,11 +7,12 @@ namespace XadrezConsole
     {
         static void Main(string[] args)
         {
-            Posicao P;
-            P = new Posicao(3, 4); //Instanciei nova posição P
+            //Posicao P;
+            //P = new Posicao(3, 4); //Instanciei nova posição P
 
-            Console.WriteLine("Posição: " + P);
+            //Console.WriteLine("Posição: " + P);
 
+            Tabuleiro tab = new Tabuleiro(8, 8);
             Console.ReadLine();
         }
     }

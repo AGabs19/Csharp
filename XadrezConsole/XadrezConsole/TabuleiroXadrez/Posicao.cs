@@ -1,5 +1,5 @@
 ﻿
-namespace Tabuleiro
+namespace TabuleiroXadrez
 {
     class Posicao
     {
@@ -9,12 +9,12 @@ namespace Tabuleiro
 
         //Construtor
         public Posicao (int linha, int coluna)
-        {
+        { //This autorreferência 
             this.linha = linha;
             this.coluna = coluna;
         }
 
-        public override string ToString()
+        public override string ToString() //Sobreposição
         {
             return linha
                 + ","
